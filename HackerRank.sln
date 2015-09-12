@@ -21,6 +21,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AngryProfessor", "AngryProf
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SherlockAndTheBeast", "SherlockAndTheBeast\SherlockAndTheBeast.csproj", "{01A2C666-9DF2-447C-B000-5818F02A47D1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UtopiaTree", "UtopiaTree\UtopiaTree.csproj", "{4F797866-5534-45AE-A956-719BDA754932}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindDigits", "FindDigits\FindDigits.csproj", "{5782C855-2127-4C5D-960A-86E9A272DB89}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +67,14 @@ Global
 		{01A2C666-9DF2-447C-B000-5818F02A47D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{01A2C666-9DF2-447C-B000-5818F02A47D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{01A2C666-9DF2-447C-B000-5818F02A47D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F797866-5534-45AE-A956-719BDA754932}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F797866-5534-45AE-A956-719BDA754932}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F797866-5534-45AE-A956-719BDA754932}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F797866-5534-45AE-A956-719BDA754932}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5782C855-2127-4C5D-960A-86E9A272DB89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5782C855-2127-4C5D-960A-86E9A272DB89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5782C855-2127-4C5D-960A-86E9A272DB89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5782C855-2127-4C5D-960A-86E9A272DB89}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
