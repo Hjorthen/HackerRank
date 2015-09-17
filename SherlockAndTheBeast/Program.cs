@@ -11,27 +11,33 @@ namespace SherlockAndTheBeast
         static void Main(string[] args)
         {
             int T = Convert.ToInt32(Console.ReadLine());
+            
             for (int i = 0; i < T; i++)
             {
                 int N = Convert.ToInt32(Console.ReadLine());
-                if (N < 3)
+                int retVal = N;
+                int threes = 0;
+                int fives = 0;
+                while(retVal > 0)
+                {
+                    if(retVal % 3==0)
+                    {
+                        fives = retVal;
+                        break;
+                    }
+                    retVal -= 5;
+                }
+                threes = N - retVal;
+                if(retVal < 0 || threes%5 != 0)
                 {
                     Console.WriteLine("-1");
                     continue;
                 }
-                int amount555 = 0;
-                int amount33333 = 0;
-                while(N >amount33333*3+amount555*5)
-                {
-                    if((N-(amount33333 * 3 + amount555 * 5))%3!=0)
-                    {
-                        if((N - (amount33333 * 3 + amount555 * 5)) % 5==0)
-                        {
-                            ++amount555;
-                        }
-                    }
-                }
-                
+                StringBuilder retString = new StringBuilder();
+                retString.Append('5', fives);
+                retString.Append('3', threes);
+
+                Console.WriteLine(retString);
 
             }
             Console.ReadLine();
