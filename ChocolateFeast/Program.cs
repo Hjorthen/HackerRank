@@ -19,9 +19,21 @@ namespace ChocolateFeast
                 int price = Convert.ToInt32(tokens[1]);
                 int wrapperCost = Convert.ToInt32(tokens[2]);
 
-                int chocolateBought = cash / price;
-                int bonusChocoloate = chocolateBought / wrapperCost;
-                Console.WriteLine((bonusChocoloate + chocolateBought));
+                int chocolateBought = cash / price; //Amount of chocolate he can buy initially 
+                int total = chocolateBought; 
+                int wrappers = chocolateBought; //He gets a wrapper for each chocolate he buys 
+
+              
+                int bonusChocoloate = wrappers / wrapperCost; //How much chocolate can he get with his current wrappers?
+                do
+                {             
+                    total += bonusChocoloate; 
+                    wrappers = wrappers - (bonusChocoloate * wrapperCost); //Gets the leftover wrappers, which he couldn't turn in for chocolate
+                    wrappers += bonusChocoloate; //Each bonus chocolate turn into a wrapper
+                    bonusChocoloate = wrappers / wrapperCost;
+                } while (bonusChocoloate > 0) ;
+
+                    Console.WriteLine(total);
             }
 
             Console.ReadLine();

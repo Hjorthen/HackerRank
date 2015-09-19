@@ -31,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SherlockAndSquares", "Sherl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChocolateFeast", "ChocolateFeast\ChocolateFeast.csproj", "{83830CA9-A11F-45C7-8DEC-9341554FB9E0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CaesarChiper", "CaesarChiper\CaesarChiper.csproj", "{29454D95-FCF4-45D9-B5E9-E1A9093E5B5A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +95,10 @@ Global
 		{83830CA9-A11F-45C7-8DEC-9341554FB9E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{83830CA9-A11F-45C7-8DEC-9341554FB9E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{83830CA9-A11F-45C7-8DEC-9341554FB9E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29454D95-FCF4-45D9-B5E9-E1A9093E5B5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29454D95-FCF4-45D9-B5E9-E1A9093E5B5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29454D95-FCF4-45D9-B5E9-E1A9093E5B5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29454D95-FCF4-45D9-B5E9-E1A9093E5B5A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
