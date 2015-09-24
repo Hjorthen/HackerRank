@@ -9,12 +9,6 @@ namespace QuickSort1
     class Program
     {
 
-        int[] QuickSort(int[] arr)
-        {
-     
-            return null;
-        }
-
         static void Main(String[] args)
         {
 
