@@ -48,7 +48,7 @@ namespace InPlaceQuicksort
         static void QuickSort(int[] arr)
         {
             InPlaceSort(arr, 0, arr.Length);
-        }
+        }   
         static void Main(string[] args)
         {
             
